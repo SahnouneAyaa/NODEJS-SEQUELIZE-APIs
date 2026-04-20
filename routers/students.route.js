@@ -5,7 +5,7 @@ const jwt=require('jsonwebtoken')
 
 
 
-var privateKey="ayaaya18"
+var privateKey="12345"
 
 verifyToken=(req,res,next)=>{
     let token=req.headers.authorization
